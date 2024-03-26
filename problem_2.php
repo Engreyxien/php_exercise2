@@ -16,7 +16,7 @@ class Circle {
 }
 
 // Example usage:
-$myCircle = new Circle(12);
+$myCircle = new Circle(5);
 ?>
 
 <!DOCTYPE html>

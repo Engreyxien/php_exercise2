@@ -25,7 +25,7 @@ class Employee extends Person {
 }
 
 // Create an instance of the Employee class
-$employee = new Employee("John Doe", 30, 50000, "Software Engineer");
+$employee = new Employee("Clark Kent", 30, 50000, "Proof Reader");
 
 ?>
 

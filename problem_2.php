@@ -25,7 +25,8 @@ $myCircle = new Circle(12);
 <h1>Area and Circumference of a Circle</h1>
 
 <?php
-echo "<p>Area: " . $myCircle->getArea() . "<br></p>"; 
+echo "<p>Radius: " . $myCircle->radius . "</p>";
+echo "<p>Area: " . $myCircle->getArea() . "<br></p>";
 echo "Circumference: " . $myCircle->getCircumference();
 ?>
 <style >

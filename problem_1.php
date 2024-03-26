@@ -20,16 +20,17 @@ class Rectangle {
 $rect = new Rectangle(10, 5);
 ?>
 
-
-
 <!DOCTYPE html>
 <html>
 <body>
 <h1>Area and Perimeter of a Rectangle</h1>
 
 <?php
+echo "<p>Length: " . $rect->length . "</p>";
+echo "<p>Width: " . $rect->width . "</p>";
 echo "<p>Area: " . $rect->getArea() . "<br></p>";
 echo "<p>Perimeter: " . $rect->getPerimeter() . "</p>";
+
 ?>
 <style >
 body {
